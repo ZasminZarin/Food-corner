@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+section{
+  height: 600px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+h1{
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(95, 40, 40);
+}
+h3{
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(35, 35, 92);
+}
+#first-para{
+  font-size:25px; 
+  color: rgb(92, 89, 74);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#Second-para{
+  font-size: larger;
+  margin-bottom: 100px;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.button{
+  text-decoration: none;
+  background-image: linear-gradient(rgb(204, 150, 96), rgb(197, 122, 51));
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(110, 48, 7);
+  font-weight: bold;
+}
+.images{
+  height: 600px;
+}
+#Top-left{
+  padding-top: 3%;
+}
+#Second-left{
+  padding-top: 5%;
+}
+#First-section{
+  background-image: url(Images/7.png);
+  background-repeat: no-repeat;
+}
+#Second-section{
+  background-image: url(Images/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+}
+/*3rd section starts*/
+.Third-para{
+  font-size: larger;
+  text-align: center;
+}
+.Recipies-area{
+  width: 25%;
+  margin: 2%;
+  padding: 0 2%;
+  float: left;
+  box-shadow: 2px 2px 50px rgb(209, 201, 201);
+  border-radius: 10px;
+}
+.recipie-area-images{
+  height: 40%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+h4{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+#Third-scetion{
+  background-image: url(Images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+/*Extra area starts*/
+.review-area{
+  height: 200px;
+  width: 20%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+  box-shadow: 5px 5px 50px rgb(103, 103, 160);
+}
+h6{
+  font-size: 18px;
+  font-weight: bold;
+}
+.review-area p {
+  font-size: larger;
+  color: rgb(44, 40, 40);
+}
+#Bonus-area{
+  background-image: url(Images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+}
+/*Footer area starts*/
+footer{
+  background-color: black;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+}
+h5{
+  color: goldenrod;
+  font-size: 30px;
+  font-weight: 700;
+}
+footer p{
+  color: aliceblue;
+  font-size: 18px;
+}
